@@ -15,6 +15,7 @@ class TestShopping(BaseTest):
         self.login_page.enter_password(self.data.PASSWORD)
         self.login_page.click_submit_button()
         self.home_page.is_opened()
+        self.home_page.make_screenshot("Products page screenshot")
 
     @allure.title("User add item to cart")
     @allure.severity("Critical")
@@ -43,6 +44,7 @@ class TestShopping(BaseTest):
         self.login_page.user_login(self.data.LOGIN, self.data.PASSWORD)
         self.home_page.cart_button()
         self.cart_page.is_opened()
+        self.cart_page.make_screenshot("Cart page screenshot")
 
     @allure.title("Verify item price on Cart Page")
     @allure.severity("Critical")
@@ -76,6 +78,7 @@ class TestShopping(BaseTest):
         self.home_page.cart_button()
         self.cart_page.checkout_button_action()
         self.personal_page.is_opened()
+        self.personal_page.make_screenshot("Personal page screenshot")
 
     @allure.title("User input personal date")
     @allure.severity("Critical")
@@ -88,6 +91,7 @@ class TestShopping(BaseTest):
         self.cart_page.checkout_button_action()
         self.personal_page.input_personal_date()
         self.checkout_page.is_opened()
+        self.checkout_page.make_screenshot("Checkout page screenshot")
 
     @allure.title("User finish ordering item")
     @allure.severity("Critical")
@@ -101,6 +105,7 @@ class TestShopping(BaseTest):
         self.personal_page.input_personal_date()
         self.checkout_page.finish_button()
         self.complete_page.is_opened()
+        self.complete_page.make_screenshot("Complete page screenshot")
 
     @allure.title("User back to Product page")
     @allure.severity("Critical")
@@ -115,3 +120,4 @@ class TestShopping(BaseTest):
         self.checkout_page.finish_button()
         self.complete_page.back_to_products_button()
         self.home_page.is_opened()
+        self.home_page.make_screenshot("Products page screenshot")
