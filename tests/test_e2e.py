@@ -92,7 +92,7 @@ class TestShopping(BaseTest):
     @allure.title("User finish ordering item")
     @allure.severity("Critical")
     @pytest.mark.smoke
-    def test_input_personal_date(self):
+    def test_finish_order(self):
         self.login_page.open()
         self.login_page.user_login(self.data.LOGIN, self.data.PASSWORD)
         self.home_page.add_item_to_cart()
@@ -105,7 +105,7 @@ class TestShopping(BaseTest):
     @allure.title("User back to Product page")
     @allure.severity("Critical")
     @pytest.mark.smoke
-    def test_input_personal_date(self):
+    def test_back_to_products_page(self):
         self.login_page.open()
         self.login_page.user_login(self.data.LOGIN, self.data.PASSWORD)
         self.home_page.add_item_to_cart()
@@ -115,7 +115,3 @@ class TestShopping(BaseTest):
         self.checkout_page.finish_button()
         self.complete_page.back_to_products_button()
         self.home_page.is_opened()
-
-
-
-
