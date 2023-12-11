@@ -14,10 +14,12 @@ class LoginPage(BasePage):
     @allure.step("Enter login")
     def enter_login(self, login):
         self.wait.until(EC.element_to_be_clickable(self.USERNAME_FIELD)).send_keys(login)
+        self.wait.until(EC.text_to_be_present_in_element_value(self.USERNAME_FIELD, login))
 
     @allure.step("Enter password")
     def enter_password(self, password):
         self.wait.until(EC.element_to_be_clickable(self.PASSWORD_FIELD)).send_keys(password)
+        self.wait.until(EC.text_to_be_present_in_element_value(self.PASSWORD_FIELD, password))
 
     @allure.step("Click submit button")
     def click_submit_button(self):

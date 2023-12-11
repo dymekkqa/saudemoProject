@@ -16,14 +16,17 @@ class PersonalPage(BasePage):
     @allure.step("Enter first name")
     def input_first_name(self, first_name):
         self.wait.until(EC.element_to_be_clickable(self.FIRST_NAME_INPUT)).send_keys(first_name)
+        self.wait.until(EC.text_to_be_present_in_element_value(self.FIRST_NAME_INPUT, first_name))
 
     @allure.step("Enter last name")
     def input_last_name(self, last_name):
         self.wait.until(EC.element_to_be_clickable(self.LAST_NAME_INPUT)).send_keys(last_name)
+        self.wait.until(EC.text_to_be_present_in_element_value(self.LAST_NAME_INPUT, last_name))
 
     @allure.step("Enter postal code")
     def input_postal_code(self, postal_code):
         self.wait.until(EC.element_to_be_clickable(self.POSTAL_CODE_INPUT)).send_keys(postal_code)
+        self.wait.until(EC.text_to_be_present_in_element_value(self.POSTAL_CODE_INPUT, postal_code))
 
     def action_continue_button(self):
         with allure.step("Click on continue button"):
