@@ -1,6 +1,9 @@
 name: UI E2E Tests
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *'
 
 jobs:
   ui-tests:
