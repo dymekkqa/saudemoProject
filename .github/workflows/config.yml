@@ -45,3 +45,14 @@ jobs:
           branch: gh-pages
           folder: allure-report
           clean: true
+
+  manual-smoke-tests:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run Smoke Tests
+        run: |
+          docker-compose run regression /bin/sh -c "pytest -k smoke"
