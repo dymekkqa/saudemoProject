@@ -1,143 +1,143 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "76e8c4e9fd65",
+    "name" : "073123a09deb",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
+        "name" : "User add item to cart",
+        "uid" : "1c905e1f3cb75e2d",
+        "parentUid" : "8bcc96134f143fb197002d18d179951f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709722878947,
+          "stop" : 1709722879480,
+          "duration" : 533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "User open Cart Page",
-        "uid" : "c7273ba48d6dc383",
-        "parentUid" : "1766fcfba55681cc622edcd15803eb76",
+        "uid" : "ae35f7be32367975",
+        "parentUid" : "8bcc96134f143fb197002d18d179951f",
         "status" : "passed",
         "time" : {
-          "start" : 1707185742134,
-          "stop" : 1707185742835,
-          "duration" : 701
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify item price on Cart Page",
-        "uid" : "887e487633591e6a",
-        "parentUid" : "1766fcfba55681cc622edcd15803eb76",
-        "status" : "passed",
-        "time" : {
-          "start" : 1707185743708,
-          "stop" : 1707185744344,
-          "duration" : 636
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "User add item to cart from item page",
-        "uid" : "758cce57b0fcecd6",
-        "parentUid" : "1766fcfba55681cc622edcd15803eb76",
-        "status" : "passed",
-        "time" : {
-          "start" : 1707185740632,
-          "stop" : 1707185741261,
-          "duration" : 629
+          "start" : 1709722881820,
+          "stop" : 1709722882484,
+          "duration" : 664
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User Login",
-        "uid" : "1c742e5dcc1a61ce",
-        "parentUid" : "1766fcfba55681cc622edcd15803eb76",
+        "uid" : "c325e5720bebf5",
+        "parentUid" : "8bcc96134f143fb197002d18d179951f",
         "status" : "passed",
         "time" : {
-          "start" : 1707185737569,
-          "stop" : 1707185738295,
-          "duration" : 726
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Open Personal page",
-        "uid" : "79e97bca86512022",
-        "parentUid" : "1766fcfba55681cc622edcd15803eb76",
-        "status" : "passed",
-        "time" : {
-          "start" : 1707185746686,
-          "stop" : 1707185747485,
-          "duration" : 799
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "User add item to cart",
-        "uid" : "3fb9db1d1d40f332",
-        "parentUid" : "1766fcfba55681cc622edcd15803eb76",
-        "status" : "passed",
-        "time" : {
-          "start" : 1707185739200,
-          "stop" : 1707185739758,
-          "duration" : 558
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "User finish ordering item",
-        "uid" : "a2e58a0333bc24d1",
-        "parentUid" : "1766fcfba55681cc622edcd15803eb76",
-        "status" : "passed",
-        "time" : {
-          "start" : 1707185750307,
-          "stop" : 1707185751419,
-          "duration" : 1112
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify item values on Cart Page",
-        "uid" : "992dab53ba838900",
-        "parentUid" : "1766fcfba55681cc622edcd15803eb76",
-        "status" : "passed",
-        "time" : {
-          "start" : 1707185745218,
-          "stop" : 1707185745808,
-          "duration" : 590
+          "start" : 1709722877195,
+          "stop" : 1709722878047,
+          "duration" : 852
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User input personal date",
-        "uid" : "647355327d75d3a0",
-        "parentUid" : "1766fcfba55681cc622edcd15803eb76",
+        "uid" : "26eeba84993d6afe",
+        "parentUid" : "8bcc96134f143fb197002d18d179951f",
         "status" : "passed",
         "time" : {
-          "start" : 1707185748362,
-          "stop" : 1707185749436,
-          "duration" : 1074
+          "start" : 1709722887906,
+          "stop" : 1709722888985,
+          "duration" : 1079
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "User back to Product page",
-        "uid" : "363d0f77d36cc54",
-        "parentUid" : "1766fcfba55681cc622edcd15803eb76",
+        "uid" : "257d17175a1d5cb9",
+        "parentUid" : "8bcc96134f143fb197002d18d179951f",
         "status" : "passed",
         "time" : {
-          "start" : 1707185752300,
-          "stop" : 1707185753529,
-          "duration" : 1229
+          "start" : 1709722891823,
+          "stop" : 1709722893027,
+          "duration" : 1204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify item price on Cart Page",
+        "uid" : "66f90b619c4d2934",
+        "parentUid" : "8bcc96134f143fb197002d18d179951f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709722883356,
+          "stop" : 1709722883964,
+          "duration" : 608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User finish ordering item",
+        "uid" : "31b3caa7a5102219",
+        "parentUid" : "8bcc96134f143fb197002d18d179951f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709722889860,
+          "stop" : 1709722890951,
+          "duration" : 1091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User add item to cart from item page",
+        "uid" : "6462ae7ea5a19598",
+        "parentUid" : "8bcc96134f143fb197002d18d179951f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709722880357,
+          "stop" : 1709722880936,
+          "duration" : 579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Open Personal page",
+        "uid" : "97c653676ca7b726",
+        "parentUid" : "8bcc96134f143fb197002d18d179951f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709722886287,
+          "stop" : 1709722887033,
+          "duration" : 746
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify item values on Cart Page",
+        "uid" : "bec7c9ac2d1f236d",
+        "parentUid" : "8bcc96134f143fb197002d18d179951f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709722884838,
+          "stop" : 1709722885412,
+          "duration" : 574
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1766fcfba55681cc622edcd15803eb76"
+      "uid" : "8bcc96134f143fb197002d18d179951f"
     } ],
-    "uid" : "e18c401f9c0d027963374c5b5ccb0338"
+    "uid" : "7a32882989116b075b4c7be5c889236f"
   } ],
   "name" : "timeline"
 }
