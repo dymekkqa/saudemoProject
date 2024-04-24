@@ -1,22 +1,22 @@
 {
-  "uid" : "1d9c33c4a79274bd",
+  "uid" : "ddfa5204b2525007",
   "name" : "User finish ordering item",
   "fullName" : "tests.test_e2e.TestShopping#test_finish_order",
   "historyId" : "fbc52dffdde10b8a735bc5eb8033bc51",
   "time" : {
-    "start" : 1713838915655,
-    "stop" : 1713838916773,
-    "duration" : 1118
+    "start" : 1713925233885,
+    "stop" : 1713925235012,
+    "duration" : 1127
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1713838915654,
-      "stop" : 1713838915654,
-      "duration" : 0
+      "start" : 1713925233072,
+      "stop" : 1713925233884,
+      "duration" : 812
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1713838914833,
-      "stop" : 1713838915654,
-      "duration" : 821
+      "start" : 1713925233884,
+      "stop" : 1713925233884,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://www.saucedemo.com/ page",
       "time" : {
-        "start" : 1713838915655,
-        "stop" : 1713838915837,
-        "duration" : 182
+        "start" : 1713925233885,
+        "stop" : 1713925234093,
+        "duration" : 208
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,17 +62,17 @@
     }, {
       "name" : "User login with credentials",
       "time" : {
-        "start" : 1713838915837,
-        "stop" : 1713838916138,
-        "duration" : 301
+        "start" : 1713925234094,
+        "stop" : 1713925234387,
+        "duration" : 293
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Enter login",
         "time" : {
-          "start" : 1713838915837,
-          "stop" : 1713838915954,
-          "duration" : 117
+          "start" : 1713925234094,
+          "stop" : 1713925234205,
+          "duration" : 111
         },
         "status" : "passed",
         "steps" : [ ],
@@ -88,9 +88,9 @@
       }, {
         "name" : "Enter password",
         "time" : {
-          "start" : 1713838915954,
-          "stop" : 1713838916046,
-          "duration" : 92
+          "start" : 1713925234205,
+          "stop" : 1713925234295,
+          "duration" : 90
         },
         "status" : "passed",
         "steps" : [ ],
@@ -106,8 +106,8 @@
       }, {
         "name" : "Click submit button",
         "time" : {
-          "start" : 1713838916046,
-          "stop" : 1713838916138,
+          "start" : 1713925234295,
+          "stop" : 1713925234387,
           "duration" : 92
         },
         "status" : "passed",
@@ -134,9 +134,9 @@
     }, {
       "name" : "Add item to cart by click Add button",
       "time" : {
-        "start" : 1713838916138,
-        "stop" : 1713838916184,
-        "duration" : 46
+        "start" : 1713925234387,
+        "stop" : 1713925234432,
+        "duration" : 45
       },
       "status" : "passed",
       "steps" : [ ],
@@ -149,8 +149,8 @@
     }, {
       "name" : "Open cart by click on Cart button",
       "time" : {
-        "start" : 1713838916184,
-        "stop" : 1713838916232,
+        "start" : 1713925234432,
+        "stop" : 1713925234480,
         "duration" : 48
       },
       "status" : "passed",
@@ -164,9 +164,9 @@
     }, {
       "name" : "Click on Checkout button",
       "time" : {
-        "start" : 1713838916232,
-        "stop" : 1713838916281,
-        "duration" : 49
+        "start" : 1713925234480,
+        "stop" : 1713925234527,
+        "duration" : 47
       },
       "status" : "passed",
       "steps" : [ ],
@@ -179,24 +179,24 @@
     }, {
       "name" : "User adds personal data",
       "time" : {
-        "start" : 1713838916281,
-        "stop" : 1713838916579,
-        "duration" : 298
+        "start" : 1713925234527,
+        "stop" : 1713925234827,
+        "duration" : 300
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Enter first name",
         "time" : {
-          "start" : 1713838916281,
-          "stop" : 1713838916359,
-          "duration" : 78
+          "start" : 1713925234527,
+          "stop" : 1713925234604,
+          "duration" : 77
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "first_name",
-          "value" : "'Test 79'"
+          "value" : "'Test 97'"
         } ],
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
@@ -205,16 +205,16 @@
       }, {
         "name" : "Enter last name",
         "time" : {
-          "start" : 1713838916359,
-          "stop" : 1713838916450,
-          "duration" : 91
+          "start" : 1713925234604,
+          "stop" : 1713925234697,
+          "duration" : 93
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "last_name",
-          "value" : "'Testowicz 2'"
+          "value" : "'Testowicz 15'"
         } ],
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
@@ -223,16 +223,16 @@
       }, {
         "name" : "Enter postal code",
         "time" : {
-          "start" : 1713838916450,
-          "stop" : 1713838916523,
-          "duration" : 73
+          "start" : 1713925234697,
+          "stop" : 1713925234768,
+          "duration" : 71
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "postal_code",
-          "value" : "'123459'"
+          "value" : "'1234533'"
         } ],
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
@@ -241,9 +241,9 @@
       }, {
         "name" : "Click on continue button",
         "time" : {
-          "start" : 1713838916523,
-          "stop" : 1713838916579,
-          "duration" : 56
+          "start" : 1713925234768,
+          "stop" : 1713925234827,
+          "duration" : 59
         },
         "status" : "passed",
         "steps" : [ ],
@@ -263,9 +263,9 @@
     }, {
       "name" : "Verify order by click on Finish button",
       "time" : {
-        "start" : 1713838916579,
-        "stop" : 1713838916636,
-        "duration" : 57
+        "start" : 1713925234827,
+        "stop" : 1713925234874,
+        "duration" : 47
       },
       "status" : "passed",
       "steps" : [ ],
@@ -278,9 +278,9 @@
     }, {
       "name" : "Page https://www.saucedemo.com/checkout-complete.html is opened",
       "time" : {
-        "start" : 1713838916636,
-        "stop" : 1713838916638,
-        "duration" : 2
+        "start" : 1713925234874,
+        "stop" : 1713925234877,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -292,9 +292,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "a32b07198f5c99f4",
+      "uid" : "585741247326662b",
       "name" : "Complete page screenshot",
-      "source" : "a32b07198f5c99f4.png",
+      "source" : "585741247326662b.png",
       "type" : "image/png",
       "size" : 42145
     } ],
@@ -307,9 +307,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1713838916774,
-      "stop" : 1713838916831,
-      "duration" : 57
+      "start" : 1713925235012,
+      "stop" : 1713925235070,
+      "duration" : 58
     },
     "status" : "passed",
     "steps" : [ ],
@@ -340,7 +340,7 @@
     "value" : "TestShopping"
   }, {
     "name" : "host",
-    "value" : "2ab8bb20ef0b"
+    "value" : "6ce344a58e1d"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -370,11 +370,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 109,
+        "passed" : 110,
         "unknown" : 0,
-        "total" : 109
+        "total" : 110
       },
       "items" : [ {
+        "uid" : "1d9c33c4a79274bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713838915655,
+          "stop" : 1713838916773,
+          "duration" : 1118
+        }
+      }, {
         "uid" : "773db314457f4ccd",
         "status" : "passed",
         "time" : {
@@ -526,18 +534,10 @@
           "stop" : 1712110684195,
           "duration" : 1188
         }
-      }, {
-        "uid" : "53681f90bd08a020",
-        "status" : "passed",
-        "time" : {
-          "start" : 1712024404433,
-          "stop" : 1712024405590,
-          "duration" : 1157
-        }
       } ]
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "1d9c33c4a79274bd.json",
+  "source" : "ddfa5204b2525007.json",
   "parameterValues" : [ ]
 }
