@@ -1,24 +1,24 @@
 {
-  "uid" : "c78012555ae770a8",
+  "uid" : "38565f525f84cf65",
   "name" : "User add item to cart from item page",
   "fullName" : "tests.test_e2e.TestShopping#test_add_item_to_cart_from_item_page",
   "historyId" : "6ddfbbdadc55519af1ae1ff6cfddc881",
   "time" : {
-    "start" : 1715221527934,
-    "stop" : 1715221538598,
-    "duration" : 10664
+    "start" : 1715308033561,
+    "stop" : 1715308044151,
+    "duration" : 10590
   },
   "status" : "broken",
   "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
-  "statusTrace" : "self = <test_e2e.TestShopping object at 0x7f276fce8830>\n\n    @allure.title(\"User add item to cart from item page\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_add_item_to_cart_from_item_page(self):\n        self.login_page.open()\n        self.login_page.user_login(self.data.LOGIN, self.data.PASSWORD)\n        self.home_page.open_item_page()\n>       self.home_page.add_item_to_cart()\n\ntests/test_e2e.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/home_page.py:19: in add_item_to_cart\n    self.wait.until(EC.element_to_be_clickable(self.ADD_TO_CART_BUTTON)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"743e657c3193ab0ca3c289d296f11e82\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x7f276fd75b20>\nmessage = ''\n\n    def until(self, method: Callable[[WebDriver], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:101: TimeoutException",
+  "statusTrace" : "self = <test_e2e.TestShopping object at 0x7fd1412b05f0>\n\n    @allure.title(\"User add item to cart from item page\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_add_item_to_cart_from_item_page(self):\n        self.login_page.open()\n        self.login_page.user_login(self.data.LOGIN, self.data.PASSWORD)\n        self.home_page.open_item_page()\n>       self.home_page.add_item_to_cart()\n\ntests/test_e2e.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/home_page.py:19: in add_item_to_cart\n    self.wait.until(EC.element_to_be_clickable(self.ADD_TO_CART_BUTTON)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"ed0d83f2d075399855797aa242b79f3b\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x7fd140e09b20>\nmessage = ''\n\n    def until(self, method: Callable[[WebDriver], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:101: TimeoutException",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1715221527110,
-      "stop" : 1715221527933,
-      "duration" : 823
+      "start" : 1715308032747,
+      "stop" : 1715308033560,
+      "duration" : 813
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1715221527933,
-      "stop" : 1715221527933,
-      "duration" : 0
+      "start" : 1715308033560,
+      "stop" : 1715308033561,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,13 +47,13 @@
   "testStage" : {
     "status" : "broken",
     "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
-    "statusTrace" : "self = <test_e2e.TestShopping object at 0x7f276fce8830>\n\n    @allure.title(\"User add item to cart from item page\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_add_item_to_cart_from_item_page(self):\n        self.login_page.open()\n        self.login_page.user_login(self.data.LOGIN, self.data.PASSWORD)\n        self.home_page.open_item_page()\n>       self.home_page.add_item_to_cart()\n\ntests/test_e2e.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/home_page.py:19: in add_item_to_cart\n    self.wait.until(EC.element_to_be_clickable(self.ADD_TO_CART_BUTTON)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"743e657c3193ab0ca3c289d296f11e82\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x7f276fd75b20>\nmessage = ''\n\n    def until(self, method: Callable[[WebDriver], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:101: TimeoutException",
+    "statusTrace" : "self = <test_e2e.TestShopping object at 0x7fd1412b05f0>\n\n    @allure.title(\"User add item to cart from item page\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_add_item_to_cart_from_item_page(self):\n        self.login_page.open()\n        self.login_page.user_login(self.data.LOGIN, self.data.PASSWORD)\n        self.home_page.open_item_page()\n>       self.home_page.add_item_to_cart()\n\ntests/test_e2e.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/home_page.py:19: in add_item_to_cart\n    self.wait.until(EC.element_to_be_clickable(self.ADD_TO_CART_BUTTON)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"ed0d83f2d075399855797aa242b79f3b\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x7fd140e09b20>\nmessage = ''\n\n    def until(self, method: Callable[[WebDriver], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:101: TimeoutException",
     "steps" : [ {
       "name" : "Open https://www.saucedemo.com/ page",
       "time" : {
-        "start" : 1715221527934,
-        "stop" : 1715221528197,
-        "duration" : 263
+        "start" : 1715308033561,
+        "stop" : 1715308033763,
+        "duration" : 202
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,17 +66,17 @@
     }, {
       "name" : "User login with credentials",
       "time" : {
-        "start" : 1715221528197,
-        "stop" : 1715221528489,
-        "duration" : 292
+        "start" : 1715308033763,
+        "stop" : 1715308034043,
+        "duration" : 280
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Enter login",
         "time" : {
-          "start" : 1715221528197,
-          "stop" : 1715221528304,
-          "duration" : 107
+          "start" : 1715308033763,
+          "stop" : 1715308033862,
+          "duration" : 99
         },
         "status" : "passed",
         "steps" : [ ],
@@ -92,9 +92,9 @@
       }, {
         "name" : "Enter password",
         "time" : {
-          "start" : 1715221528304,
-          "stop" : 1715221528396,
-          "duration" : 92
+          "start" : 1715308033863,
+          "stop" : 1715308033951,
+          "duration" : 88
         },
         "status" : "passed",
         "steps" : [ ],
@@ -110,8 +110,8 @@
       }, {
         "name" : "Click submit button",
         "time" : {
-          "start" : 1715221528397,
-          "stop" : 1715221528489,
+          "start" : 1715308033951,
+          "stop" : 1715308034043,
           "duration" : 92
         },
         "status" : "passed",
@@ -138,8 +138,8 @@
     }, {
       "name" : "Open item page by click on Item Name",
       "time" : {
-        "start" : 1715221528489,
-        "stop" : 1715221528540,
+        "start" : 1715308034044,
+        "stop" : 1715308034095,
         "duration" : 51
       },
       "status" : "passed",
@@ -153,9 +153,9 @@
     }, {
       "name" : "Add item to cart by click Add button",
       "time" : {
-        "start" : 1715221528540,
-        "stop" : 1715221538597,
-        "duration" : 10057
+        "start" : 1715308034095,
+        "stop" : 1715308044151,
+        "duration" : 10056
       },
       "status" : "broken",
       "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
@@ -178,9 +178,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1715221538628,
-      "stop" : 1715221538686,
-      "duration" : 58
+      "start" : 1715308044182,
+      "stop" : 1715308044239,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -211,7 +211,7 @@
     "value" : "TestShopping"
   }, {
     "name" : "host",
-    "value" : "d175415c6f91"
+    "value" : "496baf771112"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -243,13 +243,22 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 43,
+        "broken" : 44,
         "skipped" : 0,
         "passed" : 82,
         "unknown" : 0,
-        "total" : 125
+        "total" : 126
       },
       "items" : [ {
+        "uid" : "c78012555ae770a8",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1715221527934,
+          "stop" : 1715221538598,
+          "duration" : 10664
+        }
+      }, {
         "uid" : "4411cc7ac8171df3",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -420,19 +429,10 @@
           "stop" : 1713493272680,
           "duration" : 10654
         }
-      }, {
-        "uid" : "e5c2bafb4b6c44f",
-        "status" : "broken",
-        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
-        "time" : {
-          "start" : 1713406735171,
-          "stop" : 1713406745769,
-          "duration" : 10598
-        }
       } ]
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "c78012555ae770a8.json",
+  "source" : "38565f525f84cf65.json",
   "parameterValues" : [ ]
 }
