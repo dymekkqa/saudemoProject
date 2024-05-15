@@ -1,100 +1,100 @@
 [ {
-  "uid" : "dc3f476b67fa0681",
-  "name" : "Verify item price on Cart Page",
+  "uid" : "c61fcde02ca72a69",
+  "name" : "Verify item values on Cart Page",
   "time" : {
-    "start" : 1715653381123,
-    "stop" : 1715653381827,
-    "duration" : 704
+    "start" : 1715740058110,
+    "stop" : 1715740058707,
+    "duration" : 597
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "18913c3372215df2",
+  "uid" : "874f033077d3efc5",
+  "name" : "User finish ordering item",
+  "time" : {
+    "start" : 1715740063300,
+    "stop" : 1715740064474,
+    "duration" : 1174
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e3bee4470f105db",
   "name" : "User add item to cart from item page",
   "time" : {
-    "start" : 1715653368068,
-    "stop" : 1715653378641,
-    "duration" : 10573
+    "start" : 1715740043445,
+    "stop" : 1715740054049,
+    "duration" : 10604
   },
   "status" : "broken",
   "severity" : "critical"
 }, {
-  "uid" : "dbd550d5d7ed4748",
-  "name" : "User add item to cart",
-  "time" : {
-    "start" : 1715653366654,
-    "stop" : 1715653367192,
-    "duration" : 538
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "4de7c7d28ed5f580",
-  "name" : "Verify item values on Cart Page",
-  "time" : {
-    "start" : 1715653382746,
-    "stop" : 1715653383395,
-    "duration" : 649
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "40da525311fe4a91",
-  "name" : "Open Personal page",
-  "time" : {
-    "start" : 1715653384308,
-    "stop" : 1715653385137,
-    "duration" : 829
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "e4882cad1012cdf9",
+  "uid" : "5849e4b55a88c3d6",
   "name" : "User open Cart Page",
   "time" : {
-    "start" : 1715653379548,
-    "stop" : 1715653380208,
-    "duration" : 660
+    "start" : 1715740054970,
+    "stop" : 1715740055690,
+    "duration" : 720
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "a8ff6ca8608a5bcd",
-  "name" : "User input personal date",
+  "uid" : "863271723e6f4916",
+  "name" : "User add item to cart",
   "time" : {
-    "start" : 1715653386050,
-    "stop" : 1715653387123,
-    "duration" : 1073
+    "start" : 1715740041974,
+    "stop" : 1715740042549,
+    "duration" : 575
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "5e23c0678ee89805",
-  "name" : "User Login",
-  "time" : {
-    "start" : 1715653365051,
-    "stop" : 1715653365750,
-    "duration" : 699
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "b7bb7559f66b9d31",
-  "name" : "User finish ordering item",
-  "time" : {
-    "start" : 1715653388002,
-    "stop" : 1715653389089,
-    "duration" : 1087
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "5f41bdb098d68dcb",
+  "uid" : "ced3086f17b0d88d",
   "name" : "User back to Product page",
   "time" : {
-    "start" : 1715653389968,
-    "stop" : 1715653391166,
-    "duration" : 1198
+    "start" : 1715740065369,
+    "stop" : 1715740066651,
+    "duration" : 1282
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "28e5f95383a334eb",
+  "name" : "Verify item price on Cart Page",
+  "time" : {
+    "start" : 1715740056578,
+    "stop" : 1715740057220,
+    "duration" : 642
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3e0bf1ef1439d94f",
+  "name" : "Open Personal page",
+  "time" : {
+    "start" : 1715740059598,
+    "stop" : 1715740060390,
+    "duration" : 792
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c8beb04dbf4638a0",
+  "name" : "User input personal date",
+  "time" : {
+    "start" : 1715740061280,
+    "stop" : 1715740062408,
+    "duration" : 1128
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c3d237c8db1b709a",
+  "name" : "User Login",
+  "time" : {
+    "start" : 1715740040290,
+    "stop" : 1715740041052,
+    "duration" : 762
   },
   "status" : "passed",
   "severity" : "critical"
